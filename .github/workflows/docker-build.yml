@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: raspneo  # Specifies the use of a specific, self-hosted runner
+    runs-on: self-hosted  # Specifies the use of a specific, self-hosted runner
 
     steps:
     - name: Check Out Repository
